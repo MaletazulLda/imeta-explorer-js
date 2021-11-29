@@ -177,7 +177,7 @@ function getBlockchainUrl(id) {
 }
 
 $(function(){
-    $.get(api + '/getinfo', function(data){
+    $.get(api + '/info', function(data){
         try {
             lastStats = JSON.parse(data);
         } catch(e) {
