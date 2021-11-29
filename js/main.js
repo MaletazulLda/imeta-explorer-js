@@ -123,7 +123,7 @@ window.onhashchange = function(){
 
 function fetchLiveStats() {
     $.ajax({
-        url: api + '/getinfo',
+        url: api + '/info',
         dataType: 'json',
         type: 'GET',
         cache: 'false'
